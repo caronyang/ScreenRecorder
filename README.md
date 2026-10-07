@@ -6,6 +6,8 @@ A single-exe Windows screen recorder: select any region, record system audio at 
 
 單一 exe 的 Windows 螢幕錄影工具:可任意框選範圍、同步錄製系統聲音,輸出 MP4 (H.264 + AAC)。介面提供**英文(預設)**與**繁體中文**。
 
+![Screen Recorder — main window (English UI)](docs/screenshot_main_en.png)
+
 ---
 
 ## English
@@ -45,6 +47,8 @@ Files are saved to `Users\<you>\Videos\ScreenRecording_YYYYMMDD_HHMMSS.mp4` by d
 | **Settings ▸ Language ▸ English / 繁體中文** | Switch the UI language; remembered for next launch |
 | **Settings ▸ Hide main window while recording** | Click to toggle; when on, recording hides the main window and shows the floating bar |
 | **Settings ▸ Open file location when finished** | Click to toggle; when on, Explorer opens at the saved file after *Stop* |
+
+![Settings menu open — Language / Hide main window / Open file location](docs/screenshot_menu_en.png)
 
 **Settings file**
 
@@ -167,6 +171,8 @@ In `%APPDATA%\ScreenRecorder\config.json` — language, save folder, last region
 
 ## 繁體中文
 
+![螢幕錄影工具主視窗 — 繁體中文介面](docs/screenshot_main_zh.png)
+
 ### 功能
 
 - ✅ **螢幕錄影** — GPU 加速擷取 (DXGI Desktop Duplication,1080p 可達 60fps),自動退回 GDI 相容模式
@@ -202,6 +208,8 @@ dist\ScreenRecorder.exe
 | **設定 ▸ 語言 ▸ English / 繁體中文** | 切換介面語言,下次啟動記住 |
 | **設定 ▸ 錄影時隱藏主視窗** | 點擊切換;開啟時錄影中隱藏主視窗、顯示浮動控制列 |
 | **設定 ▸ 完成後開啟檔案位置** | 點擊切換;開啟時停止錄影後自動在檔案總管選取該檔案 |
+
+![設定選單展開 — 語言 / 錄影時隱藏主視窗 / 完成後開啟檔案位置](docs/screenshot_menu_zh.png)
 
 **設定檔**
 
