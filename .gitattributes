@@ -1,0 +1,8 @@
+# Line endings
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.bat text eol=crlf
+# Binary assets
+*.png binary
+*.ico binary

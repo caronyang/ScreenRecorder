@@ -1,0 +1,18 @@
+# Screen Recorder - dependencies
+# (Python 3.13, Windows)
+
+# Runtime
+numpy>=2.0
+av>=14.0
+mss>=9.0
+sounddevice>=0.5
+dxcam>=0.3 ; platform_system == "Windows"
+
+# Packaging (build.bat)
+pyinstaller>=6.0
+
+# Icon generation only (tools/make_icon.py)
+pillow>=10.0
+svglib>=1.6
+reportlab>=4.0
+rlPyCairo>=0.2

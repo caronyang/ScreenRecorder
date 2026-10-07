@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Local logs and recordings
+*.log
+*.mp4
+build_log.txt
+
+# Editor / OS noise
+.vscode/
+.idea/
+Thumbs.db
